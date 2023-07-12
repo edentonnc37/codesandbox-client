@@ -163,7 +163,7 @@
     "codesandbox-import-utils": "2.1.2",
     "color": "^0.11.4",
     "compare-versions": "^3.1.0",
-    "console-feed": "^2.8.5",
+    "console-feed": "^2.8.10",
     "css-modules-loader-core": "^1.1.0",
     "cssnano": "^3.10.0",
     "debug": "^2.6.8",
