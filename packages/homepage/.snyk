@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2023-10-03T21:18:37.328Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs >
+          @babel/plugin-transform-classes > @babel/helper-define-map > lodash
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > @babel/types > lodash:
+        patched: '2023-10-03T21:18:37.328Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs >
+          @babel/plugin-transform-classes > @babel/helper-define-map >
+          @babel/types > lodash
+    - gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        patched: '2023-10-03T21:18:37.328Z'
+        id: SNYK-JS-LODASH-450202
+        path: >-
+          gatsby > @gatsbyjs/relay-compiler > babel-preset-fbjs >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > @babel/generator > lodash
