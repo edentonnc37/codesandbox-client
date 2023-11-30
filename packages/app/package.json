@@ -19,7 +19,9 @@
     "lint:app": "eslint src/app",
     "lint:embed": "eslint src/embed",
     "integrations:start": "docker run -v $(pwd):/app/ -it codesandbox/test yarn start:test",
-    "typecheck": "tsc --noEmit -p tsconfig.check.json"
+    "typecheck": "tsc --noEmit -p tsconfig.check.json",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",
@@ -212,7 +214,7 @@
     "onigasm": "^2.2.1",
     "ot": "^0.0.15",
     "overmind": "^17.1.0",
-    "overmind-devtools": "^18.1.0",
+    "overmind-devtools": "^23.0.0",
     "overmind-react": "^18.1.0",
     "phoenix": "^1.3.0",
     "postcss": "^6.0.9",
@@ -263,7 +265,8 @@
     "vue-hot-reload-api": "^2.3.3",
     "vue-template-compiler": "^2.6.10",
     "vue-template-es2015-compiler": "^1.9.1",
-    "xterm": "3.7.0"
+    "xterm": "3.7.0",
+    "@snyk/protect": "latest"
   },
   "jest": {
     "roots": [
@@ -296,5 +299,6 @@
     "transform": {
       "^.+\\.(t|j)s$": "babel-jest"
     }
-  }
+  },
+  "snyk": true
 }
