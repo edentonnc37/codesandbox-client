@@ -30,7 +30,7 @@
     "gatsby-source-filesystem": "^2.0.10",
     "gatsby-source-rss-feed": "^1.1.1",
     "gatsby-transformer-json": "^2.1.8",
-    "gatsby-transformer-remark": "^2.3.5",
+    "gatsby-transformer-remark": "^6.0.0",
     "gatsby-transformer-sharp": "^2.1.9",
     "gsap": "^1.20.3",
     "lodash-es": "^4.17.11",
