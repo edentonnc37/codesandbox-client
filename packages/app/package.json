@@ -187,7 +187,7 @@
     "http-browserify": "^1.7.0",
     "https-browserify": "^1.0.0",
     "humps": "CompuIves/humps",
-    "immer": "^0.8.5",
+    "immer": "^1.0.2",
     "immutability-helper": "^2.6.6",
     "instantsearch.css": "^7.1.0",
     "is-url": "^1.2.2",
