@@ -124,7 +124,7 @@
   },
   "dependencies": {
     "@babel/plugin-transform-destructuring": "^7.1.2",
-    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-env": "^7.12.1",
     "@cerebral/http": "^4.0.0",
     "@cerebral/mobx-state-tree": "^3.0.0",
     "@codesandbox/template-icons": "^0.2.2",
@@ -165,7 +165,7 @@
     "compare-versions": "^3.1.0",
     "console-feed": "^2.8.5",
     "css-modules-loader-core": "^1.1.0",
-    "cssnano": "^3.10.0",
+    "cssnano": "^4.0.0",
     "debug": "^2.6.8",
     "downshift": "^1.0.0-rc.14",
     "eslint-config-react-app": "^1.0.5",
