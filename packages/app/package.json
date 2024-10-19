@@ -124,7 +124,7 @@
   },
   "dependencies": {
     "@babel/plugin-transform-destructuring": "^7.1.2",
-    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-env": "^7.12.1",
     "@cerebral/http": "^4.0.0",
     "@cerebral/mobx-state-tree": "^3.0.0",
     "@codesandbox/template-icons": "^0.2.2",
@@ -258,7 +258,7 @@
     "svg-react-loader": "^0.4.4",
     "tern": "^0.21.0",
     "util": "0.11.1",
-    "vue": "^2.5.2",
+    "vue": "^3.0.0",
     "vue-eslint-parser": "^2.0.3",
     "vue-hot-reload-api": "^2.3.3",
     "vue-template-compiler": "^2.6.10",
